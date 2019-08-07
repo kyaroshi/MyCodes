@@ -1,0 +1,154 @@
+/*  Hi! your going to write styles here in the next couple activities. */
+
+.header{
+    height: 250px;
+    max-height: 500px;
+    background-image: url(../images2/upsBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: botton;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Sidebar style */
+.sidebar-container{
+    width: 10%;
+    float: left;
+    background: white;
+    position: fixed;
+}
+.container{
+    width: 85%;
+    float: right;
+}
+
+nav a{
+    display: block;
+}
+
+#pageTopic{
+    text-align: center;
+}
+
+/*Primary color section*/
+
+.darkBlue{
+    Background-color: #333366;
+}
+
+.darkGrey{
+    background-color: #545454;
+}
+
+.lightGrey{
+    background-color:#E3E3E3;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.lightBlue{
+    background-color: #12A0F6;
+}
+
+.red{
+    background-color: #F84848;
+}
+
+.orange{
+    background-color: #FC7705;
+}
+
+.babyBlue{
+    background-color: #13A0F6;
+}
+
+.lightGreen{
+    background-color: #8ABE48;
+}
+
+.colorContainer{
+    display: inline-block;
+    margin: 15px;
+}
+
+.swatch{
+    height: 200px;
+    width: 170px;
+    border: 1px solid black;
+}
+
+.hexCode{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+/*typography*/
+
+.type_container{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+/*ui elements section*/
+
+.button{
+    display:inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    text-align: center;
+    color: white;
+   }
+
+.primary{
+    background-color: #2B459A;
+}
+
+.success{
+    background-color: #8ABE48;
+}
+
+.danger{
+    background-color: #F84848;
+}
+
+.warning{
+    background-color: #FC7705;
+}
+
+.info{
+    background-color: #0099FA;
+}
+
+.primaryActive{
+    background-color: #3A66B7;
+}
+
+.successActive{
+    background-color: #668C35;
+}
+
+.dangerActive{
+    background-color: #AD4848;
+}
+
+.warningActive{
+    background-color: #BA7A43;
+}
+
+.infoActive{
+    background-color: #4386BA;
+}
+
+.sectionHead{
+    border-bottom: 8px solid #DDDDDD;
+}
