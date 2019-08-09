@@ -1,0 +1,99 @@
+.logo {
+    background: white;
+    height: 230px;
+    background: url("../Images/JAKESEATERY.png") no-repeat center;
+}
+
+.online{
+    border-radius: 8px;
+    background-color: #E9FF5A;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Avenir", sans-serif;
+    width: 173px;
+}
+
+.now {
+    border-radius: 8px;
+    background-color: #00FFF4;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Avenir", sans-serif;
+    width: 173px;
+}
+
+.nav {
+    display:flex;
+    background: black;
+    padding: 20px;
+}
+
+
+.left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.left, .right {
+    width: 15%;
+}
+
+.center {
+    width:70%;
+}
+
+.center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: arial;
+ }
+
+ .column {
+     display: flex;
+     background-color: white;
+     height: 1200px;
+     width: 800px;
+     flex-direction: column;
+     margin: 0 auto;   
+ }
+
+.steak, .chicken, .cheese {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.steak {
+    margin-top: 20px;
+    background: url("../Images/steak.png");
+}
+
+.chicken {
+    background: url("../Images/chicken.png");
+}
+
+.cheese {
+    background: url("../Images/cheesecake.png");
+}
+
+.text {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+ }
+ .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
