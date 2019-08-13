@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-image: url(/MyCodes/Class_Code/transform/images/swimming.png);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "rotate"
+  ;
+}
+
+.rotateMe{
+  height: 200px;
+  width: auto;
+}
+.rotate {
+  grid-area: rotate;
+  text-align: center;
+  
+}
+
+.rotate img{
+  animation: rotateImg 3s ease-in-out infinite;
+  
+}
+
+@keyframes rotateImg{
+  from {
+    transform: rotate(180deg);
+  }
+  40% {
+    transform: translate3d(50px, 300px, 100px);
+  }
+  65%{
+    transform: translate3d(50px, 250px, 100px);
+  }
+  75%{
+    transform: translate3d(50px, 300px, 100px);
+  }
+  85%{
+    transform: translate3d(50px, 250px, 0px);
+  }
+  95%{
+    transform: translate3d(50px, 300px, 100px);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+}
+
