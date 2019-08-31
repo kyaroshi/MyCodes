@@ -1,0 +1,60 @@
+
+#hero{
+    background-image: url(../images/Rectangle4.png);
+    top: 0.000045418739318847656px;
+    left: -1.424792766571045px;
+    max-height: 845px;
+    background-position: center;
+    
+}
+
+.jumbotron h1{
+    
+    font: 72px "Open Sans";
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px 25% #000000;
+}
+
+.jumbotron span{
+    font: bold 72px "Open Sans";
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px 25% #000000;
+}
+
+.nav{
+    text-align: left;
+    font: 24px "Open Sans";
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.activeNav{
+    text-align: left;
+    font: Bold 24px "Open Sans";
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+.whiteTriangle{
+    top: 721px;
+    left: 0.6175836324691772px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid white;
+  }
+
+.line{
+
+}
